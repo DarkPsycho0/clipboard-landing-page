@@ -50,6 +50,11 @@ body{
     cursor: pointer;
     font-size: 18px;
     color: hsl(0, 0%, 100%);
+    transition: 0.3s ease-in-out;
+}
+
+.button:hover{
+    opacity: 75%;
 }
 
 .button.ios{
@@ -232,6 +237,11 @@ body{
 
 .footer div ul li{
     color: hsl(210, 10%, 33%);
+    transition: 0.3s ease-in-out;
+}
+
+.footer div ul li:hover{
+    color: hsl(171, 66%, 44%);
 }
 
 .footer .social{
@@ -240,4 +250,9 @@ body{
     font-size: 25px;
     margin-right: 400px;
     color: hsl(210, 10%, 33%);
+}
+
+.footer .social li:hover{
+    color: hsl(171, 66%, 44%);
+    transition: 0.3s ease-in-out;
 }
