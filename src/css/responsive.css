@@ -1,0 +1,40 @@
+@media(max-width:1440px) {
+    .keep-track div {
+        background-position: -20% 0px;
+    }
+
+    .keep-track div ul {
+        margin-right: 250px;
+    }
+
+    .footer img {
+        margin-left: 200px;
+    }
+
+    .footer .social {
+        margin-right: 200px;
+    }
+}
+
+@media(max-width:1024px) {
+    .keep-track div {
+        background-position: -275px 0px;
+    }
+
+    .keep-track div ul {
+        margin-right: 100px;
+    }
+
+    .supercharge .examples ul p {
+        font-size: 16px;
+        width: 300px;
+    }
+
+    .footer img {
+        margin-left: 100px;
+    }
+
+    .footer .social {
+        margin-right: 100px;
+    }
+}
